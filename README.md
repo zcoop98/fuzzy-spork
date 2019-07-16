@@ -14,7 +14,6 @@ This is where I'll keep track of all steps taken to make my project, including u
 General Useful Links:
 * `create-react-app` repo and documentation https://github.com/facebook/create-react-app
 * `.gitignore` template for various project types https://github.com/github/gitignore
-  * VS project `.gitignore` template https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 * *What not to save into a Git repo* https://zellwk.com/blog/what-not-to-save-into-a-git-repo/
 * git documentation https://git-scm.com/doc
 * Creating and managing ssh keys https://clubmate.fi/how-to-setup-and-manage-multiple-ssh-keys/
