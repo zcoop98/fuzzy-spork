@@ -19,3 +19,5 @@ General Useful Links:
 * git documentation https://git-scm.com/doc
 * Creating and managing ssh keys https://clubmate.fi/how-to-setup-and-manage-multiple-ssh-keys/
 * `ssh-keygen` documentation https://www.ssh.com/ssh/keygen/#sec-What-Is-ssh-keygen
+* ASP.NET Core + ReactJS.NET Tutorial https://reactjs.net/tutorials/aspnetcore.html
+* ReactJS Tutorial https://reactjs.org/tutorial/tutorial.html
