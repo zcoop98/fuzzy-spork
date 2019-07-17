@@ -58,7 +58,7 @@ class Game extends React.Component {
 	}
 
 	handleClick(i) {
-		const history = this.state.history.slice(0, this.state.stepNumber + 1); //Throws away future history if move isn't === to recorded next move
+		const history = this.state.history.slice(0, this.state.stepNumber + 1); //Throws away future history
 		const current = history[history.length - 1];
 		const squares = current.squares.slice();
 
@@ -84,6 +84,7 @@ class Game extends React.Component {
 		const winner = calculateWinner(current.squares);
 
 		const moves = history.map((step, move) => {
+			//Moves History
 			const desc =
 				move !== 0 ? 'Go to move #' + move : 'Go to game start';
 			return (
@@ -95,7 +96,11 @@ class Game extends React.Component {
 
 		let status;
 		if (winner) status = 'Winner: ' + winner;
-		else status = 'Next player: ' + (this.state.xIsNext ? 'X' : 'O');
+		else
+			status =
+				this.state.stepNumber === 9
+					? "It's a Draw!"
+					: 'Next player: ' + (this.state.xIsNext ? 'X' : 'O');
 
 		return (
 			<div className="game">
